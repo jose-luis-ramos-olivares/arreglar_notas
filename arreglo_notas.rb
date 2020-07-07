@@ -1,4 +1,4 @@
-def promedio
+def promedio(array)
     notas = [5, 7, 1, 3, 5, 8, 9, 'N.A', 'N.A', 3]
     sum = 0
     prom = 0
@@ -10,7 +10,4 @@ def promedio
     return prom
 end
 
-pr = promedio
-
-print pr
-print "\n"
+print promedio([5, 7, 1, 3, 5, 8, 9, 'N.A', 'N.A', 3])
